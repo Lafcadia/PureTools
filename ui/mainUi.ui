@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1102</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1102</width>
+    <height>576</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Izanagi Tools</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="PushButton" name="JumpToBilibili">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>190</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Download from Bilibili</string>
+    </property>
+   </widget>
+   <widget class="TitleLabel" name="TitleLabel">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>140</y>
+      <width>271</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Izanagi Tools - v0.0.1</string>
+    </property>
+   </widget>
+   <widget class="PushButton" name="JumpToNetEase">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>240</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Download from NetEase</string>
+    </property>
+   </widget>
+   <widget class="PushButton" name="JumpToWallpaper">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>290</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Auto Genshin Wallpaper</string>
+    </property>
+   </widget>
+   <widget class="PushButton" name="JumpToRandom">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>340</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pick a Random Choice</string>
+    </property>
+   </widget>
+   <widget class="PushButton" name="JumpToSongInfo">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>290</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Modify Song Info</string>
+    </property>
+   </widget>
+   <widget class="PushButton" name="JumpToConvert">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>240</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Music/Video Convert</string>
+    </property>
+   </widget>
+   <widget class="PushButton" name="JumpToEncrypt">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>190</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Encrypt Files</string>
+    </property>
+   </widget>
+   <widget class="PixmapLabel" name="PixmapLabel">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>641</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="VerticalSeparator" name="VerticalSeparator">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>3</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>PixmapLabel</zorder>
+   <zorder>JumpToBilibili</zorder>
+   <zorder>JumpToConvert</zorder>
+   <zorder>TitleLabel</zorder>
+   <zorder>JumpToWallpaper</zorder>
+   <zorder>JumpToSongInfo</zorder>
+   <zorder>JumpToEncrypt</zorder>
+   <zorder>JumpToNetEase</zorder>
+   <zorder>JumpToRandom</zorder>
+   <zorder>VerticalSeparator</zorder>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PushButton</class>
+   <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>PixmapLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>VerticalSeparator</class>
+   <extends>QWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
